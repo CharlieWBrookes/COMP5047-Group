@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_iAGLAMVkEfG-ZIalUyyX_A" name="WardenSubsystemUML">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_iI3sgMVkEfG-ZIalUyyX_A">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_eBo_IMVpEfG-ZIalUyyX_A" name="Maintenance"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_edGMEMVpEfG-ZIalUyyX_A" name="Warden"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_l9ai4MVpEfG-ZIalUyyX_A" name="Visitor"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_8ECbwMVpEfG-ZIalUyyX_A" name="" useCase="___vcUMVpEfG-ZIalUyyX_A _PUxsoMVqEfG-ZIalUyyX_A">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="___vcUMVpEfG-ZIalUyyX_A" name="Log into Warden System" subject="_8ECbwMVpEfG-ZIalUyyX_A">
+      <include xmi:type="uml:Include" xmi:id="_TfKCYMVqEfG-ZIalUyyX_A" addition="_PUxsoMVqEfG-ZIalUyyX_A"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_PUxsoMVqEfG-ZIalUyyX_A" name="View Assigned Halls and Building" subject="_8ECbwMVpEfG-ZIalUyyX_A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CN8nAMVvEfG-ZIalUyyX_A"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_Nw7iAMVvEfG-ZIalUyyX_A" name="Shift Handover" useCase="_SUX4AMVvEfG-ZIalUyyX_A _mp7b4MVvEfG-ZIalUyyX_A _pS30EMVvEfG-ZIalUyyX_A">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_SUX4AMVvEfG-ZIalUyyX_A" name="Manage Shift Handover" subject="_Nw7iAMVvEfG-ZIalUyyX_A">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ugdTQMVvEfG-ZIalUyyX_A" name="ExtensionPoint2"/>
+      <include xmi:type="uml:Include" xmi:id="_tb6GAMVvEfG-ZIalUyyX_A" addition="_mp7b4MVvEfG-ZIalUyyX_A"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_mp7b4MVvEfG-ZIalUyyX_A" name="View Previous Shift" subject="_Nw7iAMVvEfG-ZIalUyyX_A"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_pS30EMVvEfG-ZIalUyyX_A" name="Update Duty Status" subject="_Nw7iAMVvEfG-ZIalUyyX_A">
+      <extend xmi:type="uml:Extend" xmi:id="_uga3AMVvEfG-ZIalUyyX_A" extendedCase="_SUX4AMVvEfG-ZIalUyyX_A" extensionLocation="_ugdTQMVvEfG-ZIalUyyX_A"/>
+    </ownedUseCase>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wNgq8MVvEfG-ZIalUyyX_A"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_yESmYMVvEfG-ZIalUyyX_A" name="Maintenance Managment" useCase="_26360MVvEfG-ZIalUyyX_A _B89vQMVwEfG-ZIalUyyX_A _XnhXMMVwEfG-ZIalUyyX_A _aweFIMVwEfG-ZIalUyyX_A _eT-oIMVwEfG-ZIalUyyX_A">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_26360MVvEfG-ZIalUyyX_A" name="Manage Requests" subject="_yESmYMVvEfG-ZIalUyyX_A">
+      <include xmi:type="uml:Include" xmi:id="_HU6EUMVwEfG-ZIalUyyX_A" addition="_B89vQMVwEfG-ZIalUyyX_A"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_B89vQMVwEfG-ZIalUyyX_A" name="View/Update Tickets" subject="_yESmYMVvEfG-ZIalUyyX_A"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_XnhXMMVwEfG-ZIalUyyX_A" name="Assign Task" subject="_yESmYMVvEfG-ZIalUyyX_A">
+      <include xmi:type="uml:Include" xmi:id="_n84cEMVwEfG-ZIalUyyX_A" addition="_eT-oIMVwEfG-ZIalUyyX_A"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_aweFIMVwEfG-ZIalUyyX_A" name="Invetory Tracker" subject="_yESmYMVvEfG-ZIalUyyX_A">
+      <include xmi:type="uml:Include" xmi:id="_pG1GsMVwEfG-ZIalUyyX_A" addition="_eT-oIMVwEfG-ZIalUyyX_A"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_eT-oIMVwEfG-ZIalUyyX_A" name="Proof of Repair" subject="_yESmYMVvEfG-ZIalUyyX_A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_QbLsUMVwEfG-ZIalUyyX_A"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_srbO0MVwEfG-ZIalUyyX_A"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_4v2qAMVwEfG-ZIalUyyX_A" name="Parcel and Postal Management" useCase="__VT7EMVwEfG-ZIalUyyX_A _HdC3MMVxEfG-ZIalUyyX_A _KpBD8MVxEfG-ZIalUyyX_A _OLTe8MVxEfG-ZIalUyyX_A">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="__VT7EMVwEfG-ZIalUyyX_A" name="Mail and parcel Managment" subject="_4v2qAMVwEfG-ZIalUyyX_A">
+      <include xmi:type="uml:Include" xmi:id="_seHWIMVxEfG-ZIalUyyX_A" addition="_HdC3MMVxEfG-ZIalUyyX_A"/>
+      <include xmi:type="uml:Include" xmi:id="_uCaacMVxEfG-ZIalUyyX_A" addition="_KpBD8MVxEfG-ZIalUyyX_A"/>
+      <include xmi:type="uml:Include" xmi:id="_zzzxUMVxEfG-ZIalUyyX_A" addition="_OLTe8MVxEfG-ZIalUyyX_A"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_HdC3MMVxEfG-ZIalUyyX_A" name="Scan Parcel/Mail" subject="_4v2qAMVwEfG-ZIalUyyX_A"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_KpBD8MVxEfG-ZIalUyyX_A" name="Notify Student" subject="_4v2qAMVwEfG-ZIalUyyX_A"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_OLTe8MVxEfG-ZIalUyyX_A" name="Record Collection" subject="_4v2qAMVwEfG-ZIalUyyX_A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_7RtGQMVxEfG-ZIalUyyX_A" name="Student"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7U9OkMVxEfG-ZIalUyyX_A"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_AlEdUMVyEfG-ZIalUyyX_A"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_HLAPgMVyEfG-ZIalUyyX_A" name="Loan and Visitor Management" useCase="_VjcUsMVyEfG-ZIalUyyX_A _nSo6UMVyEfG-ZIalUyyX_A _0iauUMVyEfG-ZIalUyyX_A __uSJ0MVyEfG-ZIalUyyX_A">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_VjcUsMVyEfG-ZIalUyyX_A" name="Manage Visitor and Loans" subject="_HLAPgMVyEfG-ZIalUyyX_A">
+      <include xmi:type="uml:Include" xmi:id="_v8DnMMVyEfG-ZIalUyyX_A" addition="_nSo6UMVyEfG-ZIalUyyX_A"/>
+      <include xmi:type="uml:Include" xmi:id="_4DclEMVyEfG-ZIalUyyX_A" addition="_0iauUMVyEfG-ZIalUyyX_A"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_nSo6UMVyEfG-ZIalUyyX_A" name="Verifiy Identity" subject="_HLAPgMVyEfG-ZIalUyyX_A"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_0iauUMVyEfG-ZIalUyyX_A" name="Give Tempory Key" subject="_HLAPgMVyEfG-ZIalUyyX_A">
+      <extend xmi:type="uml:Extend" xmi:id="_GIjekMVzEfG-ZIalUyyX_A" extendedCase="__uSJ0MVyEfG-ZIalUyyX_A" extensionLocation="_GIkssMVzEfG-ZIalUyyX_A"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="__uSJ0MVyEfG-ZIalUyyX_A" name="Track loaned Key" subject="_HLAPgMVyEfG-ZIalUyyX_A">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_GIkssMVzEfG-ZIalUyyX_A" name="ExtensionPoint1"/>
+    </ownedUseCase>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9iDi0MVyEfG-ZIalUyyX_A"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_IJ3PAMVzEfG-ZIalUyyX_A"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_KKUq4MVzEfG-ZIalUyyX_A" name="Insepections" useCase="_Q9SzgMVzEfG-ZIalUyyX_A _U0xbYMVzEfG-ZIalUyyX_A _dSU2gMVzEfG-ZIalUyyX_A _jE-xoMVzEfG-ZIalUyyX_A">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Q9SzgMVzEfG-ZIalUyyX_A" name="Do Inspection" subject="_KKUq4MVzEfG-ZIalUyyX_A">
+      <include xmi:type="uml:Include" xmi:id="_cs0VsMVzEfG-ZIalUyyX_A" addition="_U0xbYMVzEfG-ZIalUyyX_A"/>
+      <include xmi:type="uml:Include" xmi:id="_iR7kEMVzEfG-ZIalUyyX_A" addition="_dSU2gMVzEfG-ZIalUyyX_A"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_U0xbYMVzEfG-ZIalUyyX_A" name="Inspet" subject="_KKUq4MVzEfG-ZIalUyyX_A"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_dSU2gMVzEfG-ZIalUyyX_A" name="Record Damage" subject="_KKUq4MVzEfG-ZIalUyyX_A">
+      <extend xmi:type="uml:Extend" xmi:id="_rD6XEMVzEfG-ZIalUyyX_A" extendedCase="_jE-xoMVzEfG-ZIalUyyX_A" extensionLocation="_rD7lMMVzEfG-ZIalUyyX_A"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_jE-xoMVzEfG-ZIalUyyX_A" name="Store Offline Data Inspection" subject="_KKUq4MVzEfG-ZIalUyyX_A">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_rD7lMMVzEfG-ZIalUyyX_A" name="ExtensionPoint1"/>
+    </ownedUseCase>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_zN-1gMVzEfG-ZIalUyyX_A" name="Secuirty and Communication" useCase="_BKnIcMV0EfG-ZIalUyyX_A _GrdscMV1EfGqQOzTDjdnbw _VZkfoMV1EfGqQOzTDjdnbw _yScvcMV1EfGqQOzTDjdnbw _3o2zcMV1EfGqQOzTDjdnbw">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_BKnIcMV0EfG-ZIalUyyX_A" name="Manage Secuirty and Communication" subject="_zN-1gMVzEfG-ZIalUyyX_A">
+      <include xmi:type="uml:Include" xmi:id="_KQsGsMV1EfGqQOzTDjdnbw" addition="_GrdscMV1EfGqQOzTDjdnbw"/>
+      <include xmi:type="uml:Include" xmi:id="_trB4YMV1EfGqQOzTDjdnbw" addition="_VZkfoMV1EfGqQOzTDjdnbw"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_GrdscMV1EfGqQOzTDjdnbw" name="Log Incident" subject="_zN-1gMVzEfG-ZIalUyyX_A"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_VZkfoMV1EfGqQOzTDjdnbw" name="Send Emergancy Alert" subject="_zN-1gMVzEfG-ZIalUyyX_A">
+      <extend xmi:type="uml:Extend" xmi:id="_2ltUYMV1EfGqQOzTDjdnbw" extendedCase="_yScvcMV1EfGqQOzTDjdnbw" extensionLocation="_2lt7cMV1EfGqQOzTDjdnbw"/>
+      <extend xmi:type="uml:Extend" xmi:id="_-lVdYMV1EfGqQOzTDjdnbw" extendedCase="_3o2zcMV1EfGqQOzTDjdnbw" extensionLocation="_-lWEcMV1EfGqQOzTDjdnbw"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_yScvcMV1EfGqQOzTDjdnbw" name="Conduct Headcount" subject="_zN-1gMVzEfG-ZIalUyyX_A">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_2lt7cMV1EfGqQOzTDjdnbw" name="ExtensionPoint1"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_3o2zcMV1EfGqQOzTDjdnbw" name="Message Residents" subject="_zN-1gMVzEfG-ZIalUyyX_A">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_-lWEcMV1EfGqQOzTDjdnbw" name="ExtensionPoint1"/>
+    </ownedUseCase>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CVlb4MV2EfGqQOzTDjdnbw"/>
+</uml:Model>
