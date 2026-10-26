@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_jV0CsM_WEfGbT5ptxg2amw" name="Activity Diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_jlfdcM_WEfGbT5ptxg2amw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_rviGsM_WEfGbT5ptxg2amw" name="Visitor Check-In" node="_BYEqgM_ZEfGbT5ptxg2amw _ElawQM_ZEfGbT5ptxg2amw _iLHp0M_ZEfGbT5ptxg2amw _yjCTcM_ZEfGbT5ptxg2amw _L1OwcM_aEfGbT5ptxg2amw _ZaJG8M_aEfGbT5ptxg2amw _5TB_INBeEfGUi8Q5WB-w5A _r2nn4NBfEfGUi8Q5WB-w5A _wIa0QNBfEfGUi8Q5WB-w5A _h-2cENBgEfGUi8Q5WB-w5A _smESYNBgEfGUi8Q5WB-w5A __LQE0NBgEfGUi8Q5WB-w5A _IZTIwNBhEfGUi8Q5WB-w5A _NeA_0NBhEfGUi8Q5WB-w5A _TsoJMNFIEfGS1oHUpdos3A _e_ougNFIEfGS1oHUpdos3A _v2_tMNFIEfGS1oHUpdos3A _BXGt8NFJEfGS1oHUpdos3A _S2CqANFJEfGS1oHUpdos3A _ZzBDMNFJEfGS1oHUpdos3A" group="_h1yIcM_YEfGbT5ptxg2amw _nQYv8M_YEfGbT5ptxg2amw _0oYN4NBeEfGUi8Q5WB-w5A">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Uuu9MM_ZEfGbT5ptxg2amw" target="_ElawQM_ZEfGbT5ptxg2amw" source="_BYEqgM_ZEfGbT5ptxg2amw"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_u3lVYM_ZEfGbT5ptxg2amw" target="_iLHp0M_ZEfGbT5ptxg2amw" source="_u4BaQM_ZEfGbT5ptxg2amw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_u4LyUM_ZEfGbT5ptxg2amw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_u4LyUc_ZEfGbT5ptxg2amw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_2f4jgM_ZEfGbT5ptxg2amw" target="_2f7m0M_ZEfGbT5ptxg2amw" source="_iLHp0M_ZEfGbT5ptxg2amw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_2gQW8M_ZEfGbT5ptxg2amw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_2gQ-AM_ZEfGbT5ptxg2amw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_vJHlUNBdEfGUi8Q5WB-w5A" inPartition="_nQYv8M_YEfGbT5ptxg2amw" target="_ZaJG8M_aEfGbT5ptxg2amw" source="_yjCTcM_ZEfGbT5ptxg2amw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_wYFS0NBdEfGUi8Q5WB-w5A" inPartition="_nQYv8M_YEfGbT5ptxg2amw" target="_L1OwcM_aEfGbT5ptxg2amw" source="_ZaJG8M_aEfGbT5ptxg2amw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_SV8C8NBfEfGUi8Q5WB-w5A" target="_ElawQM_ZEfGbT5ptxg2amw" source="_5TB_INBeEfGUi8Q5WB-w5A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_CZh0INBgEfGUi8Q5WB-w5A" target="_wIa0QNBfEfGUi8Q5WB-w5A" source="_5_GlgNBfEfGUi8Q5WB-w5A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_eiEMINBgEfGUi8Q5WB-w5A" target="_r2nn4NBfEfGUi8Q5WB-w5A" source="_wIa0QNBfEfGUi8Q5WB-w5A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_oRHEUNBgEfGUi8Q5WB-w5A" name="No" inPartition="_nQYv8M_YEfGbT5ptxg2amw" target="_h-2cENBgEfGUi8Q5WB-w5A" source="_r2nn4NBfEfGUi8Q5WB-w5A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_pZgPwNBgEfGUi8Q5WB-w5A" name="Yes" inPartition="_nQYv8M_YEfGbT5ptxg2amw" target="_h-2cENBgEfGUi8Q5WB-w5A" source="_r2nn4NBfEfGUi8Q5WB-w5A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_3EZScNBgEfGUi8Q5WB-w5A" name="If no" target="_smESYNBgEfGUi8Q5WB-w5A" source="_0R4HgNBgEfGUi8Q5WB-w5A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_HKvD4NBhEfGUi8Q5WB-w5A" target="__LQE0NBgEfGUi8Q5WB-w5A" source="_smESYNBgEfGUi8Q5WB-w5A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_LEBpoNBhEfGUi8Q5WB-w5A" inPartition="_h1yIcM_YEfGbT5ptxg2amw" target="_IZTIwNBhEfGUi8Q5WB-w5A" source="__LQE0NBgEfGUi8Q5WB-w5A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_PP4mENBhEfGUi8Q5WB-w5A" inPartition="_h1yIcM_YEfGbT5ptxg2amw" target="_NeA_0NBhEfGUi8Q5WB-w5A" source="_IZTIwNBhEfGUi8Q5WB-w5A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Tv5foNFIEfGS1oHUpdos3A" name="If yes" inPartition="_nQYv8M_YEfGbT5ptxg2amw" target="_TsoJMNFIEfGS1oHUpdos3A" source="_h-2cENBgEfGUi8Q5WB-w5A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_kO0wMNFIEfGS1oHUpdos3A" inPartition="_nQYv8M_YEfGbT5ptxg2amw" target="_e_ougNFIEfGS1oHUpdos3A" source="_TsoJMNFIEfGS1oHUpdos3A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_2-BaQNFIEfGS1oHUpdos3A" target="_v2_tMNFIEfGS1oHUpdos3A" source="_0EBHQNFIEfGS1oHUpdos3A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_GK5NENFJEfGS1oHUpdos3A" target="_Eu_20NFJEfGS1oHUpdos3A" source="_v2_tMNFIEfGS1oHUpdos3A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_S3IPINFJEfGS1oHUpdos3A" target="_S2CqANFJEfGS1oHUpdos3A" source="_BXGt8NFJEfGS1oHUpdos3A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Z0m-oNFJEfGS1oHUpdos3A" inPartition="_h1yIcM_YEfGbT5ptxg2amw" target="_ZzBDMNFJEfGS1oHUpdos3A" source="_S2CqANFJEfGS1oHUpdos3A"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_h1yIcM_YEfGbT5ptxg2amw" name="Warden" node="_ElawQM_ZEfGbT5ptxg2amw __LQE0NBgEfGUi8Q5WB-w5A _IZTIwNBhEfGUi8Q5WB-w5A _NeA_0NBhEfGUi8Q5WB-w5A _S2CqANFJEfGS1oHUpdos3A _ZzBDMNFJEfGS1oHUpdos3A" edge="_LEBpoNBhEfGUi8Q5WB-w5A _PP4mENBhEfGUi8Q5WB-w5A _Z0m-oNFJEfGS1oHUpdos3A"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_nQYv8M_YEfGbT5ptxg2amw" name="Warden Subsystem" node="_yjCTcM_ZEfGbT5ptxg2amw _L1OwcM_aEfGbT5ptxg2amw _ZaJG8M_aEfGbT5ptxg2amw _r2nn4NBfEfGUi8Q5WB-w5A _5_GlgNBfEfGUi8Q5WB-w5A _h-2cENBgEfGUi8Q5WB-w5A _0R4HgNBgEfGUi8Q5WB-w5A _TsoJMNFIEfGS1oHUpdos3A _e_ougNFIEfGS1oHUpdos3A _0EBHQNFIEfGS1oHUpdos3A _BXGt8NFJEfGS1oHUpdos3A _Eu_20NFJEfGS1oHUpdos3A" edge="_vJHlUNBdEfGUi8Q5WB-w5A _wYFS0NBdEfGUi8Q5WB-w5A _oRHEUNBgEfGUi8Q5WB-w5A _pZgPwNBgEfGUi8Q5WB-w5A _Tv5foNFIEfGS1oHUpdos3A _kO0wMNFIEfGS1oHUpdos3A"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_0oYN4NBeEfGUi8Q5WB-w5A" name="Visitor" node="_5TB_INBeEfGUi8Q5WB-w5A"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_BYEqgM_ZEfGbT5ptxg2amw" name="" outgoing="_Uuu9MM_ZEfGbT5ptxg2amw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ElawQM_ZEfGbT5ptxg2amw" name="Warden scans visitor details" incoming="_Uuu9MM_ZEfGbT5ptxg2amw _SV8C8NBfEfGUi8Q5WB-w5A" inPartition="_h1yIcM_YEfGbT5ptxg2amw">
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_u4BaQM_ZEfGbT5ptxg2amw" name="OutputPin1" outgoing="_u3lVYM_ZEfGbT5ptxg2amw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_u4D2gM_ZEfGbT5ptxg2amw" value="1"/>
+      </outputValue>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_iLHp0M_ZEfGbT5ptxg2amw" name="Visitor Information Details" incoming="_u3lVYM_ZEfGbT5ptxg2amw" outgoing="_2f4jgM_ZEfGbT5ptxg2amw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_iLMiUM_ZEfGbT5ptxg2amw" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_yjCTcM_ZEfGbT5ptxg2amw" name="Receive Visitor Information" outgoing="_vJHlUNBdEfGUi8Q5WB-w5A" inPartition="_nQYv8M_YEfGbT5ptxg2amw">
+      <inputValue xmi:type="uml:InputPin" xmi:id="_2f7m0M_ZEfGbT5ptxg2amw" name="InputPin1" incoming="_2f4jgM_ZEfGbT5ptxg2amw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_2f9cAM_ZEfGbT5ptxg2amw" value="1"/>
+      </inputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_L1OwcM_aEfGbT5ptxg2amw" name="Scan and Validate pass or Verfit Photo ID" incoming="_wYFS0NBdEfGUi8Q5WB-w5A" inPartition="_nQYv8M_YEfGbT5ptxg2amw">
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_5_GlgNBfEfGUi8Q5WB-w5A" name="OutputPin1" outgoing="_CZh0INBgEfGUi8Q5WB-w5A" inPartition="_nQYv8M_YEfGbT5ptxg2amw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_5_HzoNBfEfGUi8Q5WB-w5A" value="1"/>
+      </outputValue>
+    </node>
+    <node xmi:type="uml:DecisionNode" xmi:id="_ZaJG8M_aEfGbT5ptxg2amw" name="Digital ID / Photo ID" incoming="_vJHlUNBdEfGUi8Q5WB-w5A" outgoing="_wYFS0NBdEfGUi8Q5WB-w5A" inPartition="_nQYv8M_YEfGbT5ptxg2amw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_5TB_INBeEfGUi8Q5WB-w5A" name="Visitor hands over photo ID / Digital ID" outgoing="_SV8C8NBfEfGUi8Q5WB-w5A" inPartition="_0oYN4NBeEfGUi8Q5WB-w5A"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_r2nn4NBfEfGUi8Q5WB-w5A" name="Verfied?" incoming="_eiEMINBgEfGUi8Q5WB-w5A" outgoing="_oRHEUNBgEfGUi8Q5WB-w5A _pZgPwNBgEfGUi8Q5WB-w5A" inPartition="_nQYv8M_YEfGbT5ptxg2amw"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_wIa0QNBfEfGUi8Q5WB-w5A" name="Verification result" incoming="_CZh0INBgEfGUi8Q5WB-w5A" outgoing="_eiEMINBgEfGUi8Q5WB-w5A">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_wIcpcNBfEfGUi8Q5WB-w5A" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_h-2cENBgEfGUi8Q5WB-w5A" name="Record Host Details" incoming="_oRHEUNBgEfGUi8Q5WB-w5A _pZgPwNBgEfGUi8Q5WB-w5A" outgoing="_Tv5foNFIEfGS1oHUpdos3A" inPartition="_nQYv8M_YEfGbT5ptxg2amw">
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_0R4HgNBgEfGUi8Q5WB-w5A" name="OutputPin1" outgoing="_3EZScNBgEfGUi8Q5WB-w5A" inPartition="_nQYv8M_YEfGbT5ptxg2amw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_0R58sNBgEfGUi8Q5WB-w5A" value="1"/>
+      </outputValue>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_smESYNBgEfGUi8Q5WB-w5A" name="Visitor registration details" incoming="_3EZScNBgEfGUi8Q5WB-w5A" outgoing="_HKvD4NBhEfGUi8Q5WB-w5A">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_smE5cNBgEfGUi8Q5WB-w5A" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="__LQE0NBgEfGUi8Q5WB-w5A" name="Recieve verifaction failure message" incoming="_HKvD4NBhEfGUi8Q5WB-w5A" outgoing="_LEBpoNBhEfGUi8Q5WB-w5A" inPartition="_h1yIcM_YEfGbT5ptxg2amw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_IZTIwNBhEfGUi8Q5WB-w5A" name="Deny entry" incoming="_LEBpoNBhEfGUi8Q5WB-w5A" outgoing="_PP4mENBhEfGUi8Q5WB-w5A" inPartition="_h1yIcM_YEfGbT5ptxg2amw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_NeA_0NBhEfGUi8Q5WB-w5A" name="ActivityFinalNode30" incoming="_PP4mENBhEfGUi8Q5WB-w5A" inPartition="_h1yIcM_YEfGbT5ptxg2amw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_TsoJMNFIEfGS1oHUpdos3A" name="Record Entry Time and Date" incoming="_Tv5foNFIEfGS1oHUpdos3A" outgoing="_kO0wMNFIEfGS1oHUpdos3A" inPartition="_nQYv8M_YEfGbT5ptxg2amw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_e_ougNFIEfGS1oHUpdos3A" name="Record Excpeted Depature Time and Date" incoming="_kO0wMNFIEfGS1oHUpdos3A" inPartition="_nQYv8M_YEfGbT5ptxg2amw">
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_0EBHQNFIEfGS1oHUpdos3A" name="OutputPin1" outgoing="_2-BaQNFIEfGS1oHUpdos3A" inPartition="_nQYv8M_YEfGbT5ptxg2amw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_0EDjgNFIEfGS1oHUpdos3A" value="1"/>
+      </outputValue>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_v2_tMNFIEfGS1oHUpdos3A" name="Confirmation of Registration" incoming="_2-BaQNFIEfGS1oHUpdos3A" outgoing="_GK5NENFJEfGS1oHUpdos3A">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_v3HB8NFIEfGS1oHUpdos3A" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_BXGt8NFJEfGS1oHUpdos3A" name="Confrim registration" outgoing="_S3IPINFJEfGS1oHUpdos3A" inPartition="_nQYv8M_YEfGbT5ptxg2amw">
+      <inputValue xmi:type="uml:InputPin" xmi:id="_Eu_20NFJEfGS1oHUpdos3A" name="InputPin1" incoming="_GK5NENFJEfGS1oHUpdos3A" inPartition="_nQYv8M_YEfGbT5ptxg2amw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_EvBsANFJEfGS1oHUpdos3A" value="1"/>
+      </inputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_S2CqANFJEfGS1oHUpdos3A" name="Permit Entry to VIsitor" incoming="_S3IPINFJEfGS1oHUpdos3A" outgoing="_Z0m-oNFJEfGS1oHUpdos3A" inPartition="_h1yIcM_YEfGbT5ptxg2amw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_ZzBDMNFJEfGS1oHUpdos3A" name="ActivityFinalNode42" incoming="_Z0m-oNFJEfGS1oHUpdos3A" inPartition="_h1yIcM_YEfGbT5ptxg2amw"/>
+  </packagedElement>
+</uml:Model>
