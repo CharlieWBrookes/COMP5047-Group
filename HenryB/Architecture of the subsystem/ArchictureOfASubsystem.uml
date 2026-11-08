@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_4CLLENqtEfGns51D7b5xmw" name="ArchictureOfASubsystem">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_4J_DQNqtEfGns51D7b5xmw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_lM2KMNq1EfGW2Pbfu3f8tw" name="Studnet Subsystem">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_FBEw0Nq2EfGW2Pbfu3f8tw" name="S1 : Notification Service(FR-ST(3.3,4.1,6.2)" type="_DHnikNq7EfGW2Pbfu3f8tw"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_5oeTENt0EfGUD7pEysRiHQ" client="_lM2KMNq1EfGW2Pbfu3f8tw" supplier="_xENL8Nt0EfGUD7pEysRiHQ" contract="_xENL8Nt0EfGUD7pEysRiHQ"/>
+    <nestedClassifier xmi:type="uml:Component" xmi:id="_DHnikNq7EfGW2Pbfu3f8tw" name="Component"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_uEWTMNqxEfGW2Pbfu3f8tw" name="Warden Subsystem">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_weRX8NqxEfGW2Pbfu3f8tw" name="W1 : Access Service(FR-WD : 1.1)" type="_CsbxgNqyEfGW2Pbfu3f8tw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ObuqMNqyEfGW2Pbfu3f8tw" name="W2 : Shift Duty Service(FR-WD : 1.2-1.3)" type="_TgVzkNqyEfGW2Pbfu3f8tw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_AAXXYNqzEfGW2Pbfu3f8tw" name="W3 : Maintenance Serive(FR-WD : 2.1, 2.3-2.4)" type="_K4tZ8NqzEfGW2Pbfu3f8tw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Om3twNqzEfGW2Pbfu3f8tw" name="W4 : Inventory Service(FR-WD : 2.2)" type="_WOke8NqzEfGW2Pbfu3f8tw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_jVZLQNqzEfGW2Pbfu3f8tw" name="W5 : Parcel Service(FR-WD : 3.1-3.4)" type="_qP3DANqzEfGW2Pbfu3f8tw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_sdSj4NqzEfGW2Pbfu3f8tw" name="W6 : Visitor Login Service(FR-WD : 4.1)" type="_zflh8NqzEfGW2Pbfu3f8tw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9WTvcNqzEfGW2Pbfu3f8tw" name="W7 : Key Loan Service(FR-WD : 4.2-4.4)" type="_DbchsNq0EfGW2Pbfu3f8tw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_FhAgANq0EfGW2Pbfu3f8tw" name="W8 : Inspection Service(FR-WD : 5.1 - 5.3)" type="_MZezsNq0EfGW2Pbfu3f8tw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_NWaWANq0EfGW2Pbfu3f8tw" name="W9 : Facility Alert Service(FR-WD : 5.4)" type="_Wij8gNq0EfGW2Pbfu3f8tw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZGVg0Nq0EfGW2Pbfu3f8tw" name="W10 : Incident and Welfare Service(FR-WD : 6.1,6.4)" type="_gYNL8Nq0EfGW2Pbfu3f8tw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_hY-scNq0EfGW2Pbfu3f8tw" name="W11 : Emergency Service(FR-WD : 6.2-6.3)" type="_piPSkNq0EfGW2Pbfu3f8tw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_sFMXgNq0EfGW2Pbfu3f8tw" name="W12 : Resident Communication Service(FR-WD : 7.1-7.2)" type="_0lKNcNq0EfGW2Pbfu3f8tw"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_nOFBINrAEfGW2Pbfu3f8tw" name="W2 / W12" client="_uEWTMNqxEfGW2Pbfu3f8tw" supplier="_nN4z4NrAEfGW2Pbfu3f8tw" contract="_nN4z4NrAEfGW2Pbfu3f8tw"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_BNOogNt2EfGUD7pEysRiHQ" name="W3" client="_uEWTMNqxEfGW2Pbfu3f8tw" supplier="_sV83oNt1EfGUD7pEysRiHQ" contract="_sV83oNt1EfGUD7pEysRiHQ"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_KluMcNt3EfGUD7pEysRiHQ" name="W8" client="_uEWTMNqxEfGW2Pbfu3f8tw" supplier="_Kk0NgNt3EfGUD7pEysRiHQ" contract="_Kk0NgNt3EfGUD7pEysRiHQ"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_SDa3oNt4EfGUD7pEysRiHQ" name="W7" client="_uEWTMNqxEfGW2Pbfu3f8tw" supplier="_SCoNcNt4EfGUD7pEysRiHQ" contract="_SCoNcNt4EfGUD7pEysRiHQ"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_x6og0Nt4EfGUD7pEysRiHQ" name="W11" client="_uEWTMNqxEfGW2Pbfu3f8tw" supplier="_x51PkNt4EfGUD7pEysRiHQ" contract="_x51PkNt4EfGUD7pEysRiHQ"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_6WdoMNt5EfGUD7pEysRiHQ" name="W5" client="_uEWTMNqxEfGW2Pbfu3f8tw" supplier="_6VhNANt5EfGUD7pEysRiHQ" contract="_6VhNANt5EfGUD7pEysRiHQ"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_SxSi4Nt7EfGUD7pEysRiHQ" name="W6" client="_uEWTMNqxEfGW2Pbfu3f8tw" supplier="_SwOL4Nt7EfGUD7pEysRiHQ" contract="_SwOL4Nt7EfGUD7pEysRiHQ"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_RYajENuJEfGCQIl8vjCQTQ" name="W1/W2" client="_uEWTMNqxEfGW2Pbfu3f8tw" supplier="_RWOxwNuJEfGCQIl8vjCQTQ" contract="_RWOxwNuJEfGCQIl8vjCQTQ"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_8hJHUNuKEfGCQIl8vjCQTQ" name="W3" client="_uEWTMNqxEfGW2Pbfu3f8tw" supplier="_8gHzoNuKEfGCQIl8vjCQTQ" contract="_8gHzoNuKEfGCQIl8vjCQTQ"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_QdlLINuMEfGCQIl8vjCQTQ" name="W7/W8" client="_uEWTMNqxEfGW2Pbfu3f8tw" supplier="_QceX4NuMEfGCQIl8vjCQTQ" contract="_QceX4NuMEfGCQIl8vjCQTQ"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Pus2cNuNEfGCQIl8vjCQTQ" name="W6/W11" client="_uEWTMNqxEfGW2Pbfu3f8tw" supplier="_Pt0ssNuNEfGCQIl8vjCQTQ" contract="_Pt0ssNuNEfGCQIl8vjCQTQ"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_GXEt0NuPEfGvZMQksgCq8Q" name="W10" client="_uEWTMNqxEfGW2Pbfu3f8tw" supplier="_GTGz0NuPEfGvZMQksgCq8Q" contract="_GTGz0NuPEfGvZMQksgCq8Q"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_prdhINuSEfGvZMQksgCq8Q" name="W2" client="_uEWTMNqxEfGW2Pbfu3f8tw" supplier="_ppfLMNuSEfGvZMQksgCq8Q" contract="_ppfLMNuSEfGvZMQksgCq8Q"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Gg73oNuTEfGvZMQksgCq8Q" name="W3/W5/W8" client="_uEWTMNqxEfGW2Pbfu3f8tw" supplier="_GezJoNuTEfGvZMQksgCq8Q" contract="_GezJoNuTEfGvZMQksgCq8Q"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_xV8EENuTEfGvZMQksgCq8Q" name="W3/W5/W8" client="_uEWTMNqxEfGW2Pbfu3f8tw" supplier="_pWKxINuTEfGvZMQksgCq8Q" contract="_pWKxINuTEfGvZMQksgCq8Q"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_UTLqENuUEfGvZMQksgCq8Q" name="W2/W10" client="_uEWTMNqxEfGW2Pbfu3f8tw" supplier="_OF3zQNuUEfGvZMQksgCq8Q" contract="_OF3zQNuUEfGvZMQksgCq8Q"/>
+    <nestedClassifier xmi:type="uml:Component" xmi:id="_CsbxgNqyEfGW2Pbfu3f8tw" name="Component"/>
+    <nestedClassifier xmi:type="uml:Component" xmi:id="_TgVzkNqyEfGW2Pbfu3f8tw" name="Component"/>
+    <nestedClassifier xmi:type="uml:Component" xmi:id="_K4tZ8NqzEfGW2Pbfu3f8tw" name="Component"/>
+    <nestedClassifier xmi:type="uml:Component" xmi:id="_WOke8NqzEfGW2Pbfu3f8tw" name="Component"/>
+    <nestedClassifier xmi:type="uml:Component" xmi:id="_qP3DANqzEfGW2Pbfu3f8tw" name="Component"/>
+    <nestedClassifier xmi:type="uml:Component" xmi:id="_zflh8NqzEfGW2Pbfu3f8tw" name="Component"/>
+    <nestedClassifier xmi:type="uml:Component" xmi:id="_DbchsNq0EfGW2Pbfu3f8tw" name="Component"/>
+    <nestedClassifier xmi:type="uml:Component" xmi:id="_MZezsNq0EfGW2Pbfu3f8tw" name="Component"/>
+    <nestedClassifier xmi:type="uml:Component" xmi:id="_Wij8gNq0EfGW2Pbfu3f8tw" name="Component"/>
+    <nestedClassifier xmi:type="uml:Component" xmi:id="_gYNL8Nq0EfGW2Pbfu3f8tw" name="Component"/>
+    <nestedClassifier xmi:type="uml:Component" xmi:id="_piPSkNq0EfGW2Pbfu3f8tw" name="Component"/>
+    <nestedClassifier xmi:type="uml:Component" xmi:id="_0lKNcNq0EfGW2Pbfu3f8tw" name="Component"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_nN4z4NrAEfGW2Pbfu3f8tw" name="IMessaging"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-jXFgNrAEfGW2Pbfu3f8tw"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_xENL8Nt0EfGUD7pEysRiHQ" name="IResidentCommunications"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_BPmcgNt1EfGUD7pEysRiHQ" name="W12"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_JgZ1ENt1EfGUD7pEysRiHQ" name="Student Subsystem">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_YcxGsNt1EfGUD7pEysRiHQ" name="S2 : Maintenance Ticket Service(FR-ST : 3.1-3.4)" type="_cQWtENt1EfGUD7pEysRiHQ"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_TeDUgNt2EfGUD7pEysRiHQ" client="_JgZ1ENt1EfGUD7pEysRiHQ" supplier="_L8mVQNt2EfGUD7pEysRiHQ" contract="_L8mVQNt2EfGUD7pEysRiHQ"/>
+    <nestedClassifier xmi:type="uml:Component" xmi:id="_cQWtENt1EfGUD7pEysRiHQ" name="Component"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_sV83oNt1EfGUD7pEysRiHQ" name="IMaintenanceTicket"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_KhMuQNt2EfGUD7pEysRiHQ"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_L8mVQNt2EfGUD7pEysRiHQ" name="IMaintenanceDispatch"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_WLTk8Nt2EfGUD7pEysRiHQ" name="W3"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_iRTtcNt2EfGUD7pEysRiHQ" name="Student Subsystem">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_vYUnANt2EfGUD7pEysRiHQ" name="S3 : Inventory Service(FR-ST : 7.1-7.3)" type="__D-nkNt2EfGUD7pEysRiHQ"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Y5udkNt3EfGUD7pEysRiHQ" client="_iRTtcNt2EfGUD7pEysRiHQ" supplier="_Y40eoNt3EfGUD7pEysRiHQ" contract="_Y40eoNt3EfGUD7pEysRiHQ"/>
+    <nestedClassifier xmi:type="uml:Component" xmi:id="__D-nkNt2EfGUD7pEysRiHQ" name="Component"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Kk0NgNt3EfGUD7pEysRiHQ" name="IInventory"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_VMzf4Nt3EfGUD7pEysRiHQ"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Y40eoNt3EfGUD7pEysRiHQ" name="IInspection"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_fA8TcNt3EfGUD7pEysRiHQ" name="W8"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9_GNsNt3EfGUD7pEysRiHQ" name="Student Subsystem">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_FlO4oNt4EfGUD7pEysRiHQ" name="S4 : Digital Key Service(FR-ST : 2.1,2.4)" type="_MWDsMNt4EfGUD7pEysRiHQ"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_gCNGsNt4EfGUD7pEysRiHQ" client="_9_GNsNt3EfGUD7pEysRiHQ" supplier="_aolWoNt4EfGUD7pEysRiHQ" contract="_aolWoNt4EfGUD7pEysRiHQ"/>
+    <nestedClassifier xmi:type="uml:Component" xmi:id="_MWDsMNt4EfGUD7pEysRiHQ" name="Component"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_SCoNcNt4EfGUD7pEysRiHQ" name="IKey"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ZdFz4Nt4EfGUD7pEysRiHQ"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_aolWoNt4EfGUD7pEysRiHQ" name="IReturn"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_hD2J4Nt4EfGUD7pEysRiHQ" name="W7"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_lKfPINt4EfGUD7pEysRiHQ" name="Student Subsystem">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_oukZ4Nt4EfGUD7pEysRiHQ" name="S5 : Safety FIre Drill Service(FR-ST : 6.3,6.4)" type="_rUT3oNt5EfGUD7pEysRiHQ"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_8fRkQNt4EfGUD7pEysRiHQ" client="_lKfPINt4EfGUD7pEysRiHQ" supplier="_8eQQkNt4EfGUD7pEysRiHQ" contract="_8eQQkNt4EfGUD7pEysRiHQ"/>
+    <nestedClassifier xmi:type="uml:Component" xmi:id="_rUT3oNt5EfGUD7pEysRiHQ" name="Component"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_x51PkNt4EfGUD7pEysRiHQ" name="ISafety"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4eZv0Nt4EfGUD7pEysRiHQ"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_8eQQkNt4EfGUD7pEysRiHQ" name="IGatherPoint"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_T1nYkNt5EfGUD7pEysRiHQ" name="W11"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_WTAoENt5EfGUD7pEysRiHQ" name="Student Subsystem">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_awQPcNt5EfGUD7pEysRiHQ" name="S6 : Parcel Pickup Service(FR-ST : 4.1-4.3)" type="_oJjy4Nt5EfGUD7pEysRiHQ"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_E7HSsNt6EfGUD7pEysRiHQ" client="_WTAoENt5EfGUD7pEysRiHQ" supplier="_E52HYNt6EfGUD7pEysRiHQ" contract="_E52HYNt6EfGUD7pEysRiHQ"/>
+    <nestedClassifier xmi:type="uml:Component" xmi:id="_oJjy4Nt5EfGUD7pEysRiHQ" name="Component"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_6VhNANt5EfGUD7pEysRiHQ" name="IPickup"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_C3_kYNt6EfGUD7pEysRiHQ"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_E52HYNt6EfGUD7pEysRiHQ" name="IParcel"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_OR-UYNt6EfGUD7pEysRiHQ" name="W5"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_85V_MNt6EfGUD7pEysRiHQ" name="Student Subsystem">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_B-f7INt7EfGUD7pEysRiHQ" name="S7 : Visitor Pass Service(FR-ST : 2.3)" type="_J1iI0Nt7EfGUD7pEysRiHQ"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_TWJuANt8EfGuo4D0NYDC7g" client="_85V_MNt6EfGUD7pEysRiHQ" supplier="_M9e7wNt8EfGuo4D0NYDC7g" contract="_M9e7wNt8EfGuo4D0NYDC7g"/>
+    <nestedClassifier xmi:type="uml:Component" xmi:id="_J1iI0Nt7EfGUD7pEysRiHQ" name="Component"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_SwOL4Nt7EfGUD7pEysRiHQ" name="IVisitorPass"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bmj6cNt7EfGUD7pEysRiHQ"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_M9e7wNt8EfGuo4D0NYDC7g" name="IVisitorLog"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_WUw0MNt8EfGuo4D0NYDC7g" name="W6"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_sQTA8NuIEfGCQIl8vjCQTQ" name="Accomodation Office Subsystem">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_DECegNuJEfGCQIl8vjCQTQ" name="A1 : Warden RosterPerofrmance Service(FR-AO : 6.1-6.3)" type="_L94NANuJEfGCQIl8vjCQTQ"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ijGtcNuJEfGCQIl8vjCQTQ" client="_sQTA8NuIEfGCQIl8vjCQTQ" supplier="_ih5zkNuJEfGCQIl8vjCQTQ" contract="_ih5zkNuJEfGCQIl8vjCQTQ"/>
+    <nestedClassifier xmi:type="uml:Component" xmi:id="_L94NANuJEfGCQIl8vjCQTQ" name="Component"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_RWOxwNuJEfGCQIl8vjCQTQ" name="IRoster"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Vujc4NuJEfGCQIl8vjCQTQ"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_ih5zkNuJEfGCQIl8vjCQTQ" name="IShiftDuty"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CObPsNuKEfGCQIl8vjCQTQ" name="W2"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_eJHY8NuKEfGCQIl8vjCQTQ" name="Accomodation Office Subsystem">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qM23oNuKEfGCQIl8vjCQTQ" name="A2 : Contractor Work Order Service(FR-AO : 4.3)"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_8gHzoNuKEfGCQIl8vjCQTQ" name="IWorkOrder"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_AsXxoNuLEfGCQIl8vjCQTQ"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_35xeINuLEfGCQIl8vjCQTQ" name="Accomodation Office Subsystem">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8FOK4NuLEfGCQIl8vjCQTQ" name="A3 : Damage and Invoicing(FR-AO : 7.1,7.2)" type="_KnruwNuMEfGCQIl8vjCQTQ"/>
+    <nestedClassifier xmi:type="uml:Component" xmi:id="_KnruwNuMEfGCQIl8vjCQTQ" name="Component"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_QceX4NuMEfGCQIl8vjCQTQ" name="IBilling"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_g-k4QNuMEfGCQIl8vjCQTQ"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_2qDtQNuMEfGCQIl8vjCQTQ" name="Accomodation Office Subsystem">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Cex4gNuNEfGCQIl8vjCQTQ" name="A4 : Room Allocation Service(FR-AO : 2.1-2.3,3.3)" type="_sPy4YNuNEfGCQIl8vjCQTQ"/>
+    <nestedClassifier xmi:type="uml:Component" xmi:id="_sPy4YNuNEfGCQIl8vjCQTQ" name="Component"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Pt0ssNuNEfGCQIl8vjCQTQ" name="IResidentDirectory"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Y33aYNuNEfGCQIl8vjCQTQ"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_10gv4NuNEfGCQIl8vjCQTQ" name="Accomodation Office Subsystem">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_5OwCINuNEfGCQIl8vjCQTQ" name="A5 : Incident Service(FR-AO : 3.4)" type="_A0MwkNuOEfGCQIl8vjCQTQ"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_DuU_YNuOEfGCQIl8vjCQTQ" client="_10gv4NuNEfGCQIl8vjCQTQ" supplier="_DtB-4NuOEfGCQIl8vjCQTQ" contract="_DtB-4NuOEfGCQIl8vjCQTQ"/>
+    <nestedClassifier xmi:type="uml:Component" xmi:id="_A0MwkNuOEfGCQIl8vjCQTQ" name="Component"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_DtB-4NuOEfGCQIl8vjCQTQ" name="IIncidentWelfare"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ng1ZcNuOEfGvZMQksgCq8Q" name="W10"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_GTGz0NuPEfGvZMQksgCq8Q" name="IIncidentReport"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Zz3dsNuPEfGvZMQksgCq8Q"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LfU5sNuSEfGvZMQksgCq8Q" name="Platform Operator Subsystem">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_bEQnMNuSEfGvZMQksgCq8Q" name="P1 : Tenant ID Service(FR-PO : 1.1-1.3,2.1)" type="_2WoMMNuSEfGvZMQksgCq8Q"/>
+    <nestedClassifier xmi:type="uml:Component" xmi:id="_UCibcNuTEfGvZMQksgCq8Q" name="Component"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NQOPkNuSEfGvZMQksgCq8Q" name="Platform Operator Subsystem">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_5QcR8NuSEfGvZMQksgCq8Q" name="P2 : AI Management(FR-PO : 4.1)" type="_UCibcNuTEfGvZMQksgCq8Q"/>
+    <nestedClassifier xmi:type="uml:Component" xmi:id="_2WoMMNuSEfGvZMQksgCq8Q" name="Component"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_ppfLMNuSEfGvZMQksgCq8Q" name="ITenantID"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_saPbkNuSEfGvZMQksgCq8Q"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_GezJoNuTEfGvZMQksgCq8Q" name="IAIModel"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JXnJ0NuTEfGvZMQksgCq8Q"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_WAQFUNuTEfGvZMQksgCq8Q" name="Platform Operator Subsystem">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_dHueUNuTEfGvZMQksgCq8Q" name="P3 : ML Feedback(FR-PO : 4.3)"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_pWKxINuTEfGvZMQksgCq8Q" name="IMLFeedback"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_pXSLcNuTEfGvZMQksgCq8Q"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_BjB9wNuUEfGvZMQksgCq8Q" name="Platform Operator Subsystem">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_FAEsYNuUEfGvZMQksgCq8Q" name="P4 : Audit Usage Service(FR-PO : 2.2,3.2)"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_OF3zQNuUEfGvZMQksgCq8Q" name="IAuditUsage"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_OG8xUNuUEfGvZMQksgCq8Q"/>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_hRxtsNqzEfGW2Pbfu3f8tw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hR1_INqzEfGW2Pbfu3f8tw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
