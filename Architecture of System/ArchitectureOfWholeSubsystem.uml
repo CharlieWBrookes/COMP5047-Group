@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_A_nXwOgCEfGZVPTIslT8AQ" name="ArchitectureOfWholeSubsystem">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_BGajUOgCEfGZVPTIslT8AQ">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_qy6n4OgIEfG3pPRXbtjV7g" name="Interaction4"/>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_t8xUwOgIEfG3pPRXbtjV7g" name="Interaction5"/>
+    <packagedElement xmi:type="uml:Activity" xmi:id="_wH0QAOgIEfG3pPRXbtjV7g" name="Activity6"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_3WBGoOgJEfG3pPRXbtjV7g" name="UniDorm Accomodation Office Subsystem">
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_TMXTsOgQEfG3pPRXbtjV7g" name="IApplication"/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_KklwIOgREfG3pPRXbtjV7g" name="IAllocation"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_KTZWoOgKEfG3pPRXbtjV7g" name="A1 Warden Workforce Service FR-AO-6.1-6.3">
+        <packagedElement xmi:type="uml:Usage" xmi:id="__X3nwOgKEfG3pPRXbtjV7g" client="_KTZWoOgKEfG3pPRXbtjV7g" supplier="_75v7EOgKEfG3pPRXbtjV7g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_q_hZIOgLEfG3pPRXbtjV7g" name="A2 Contractor Work Order &amp; Estate Maintenance Service FR-AO-4.1-4.4">
+        <packagedElement xmi:type="uml:Usage" xmi:id="_-Zjv8OgLEfG3pPRXbtjV7g" client="_q_hZIOgLEfG3pPRXbtjV7g" supplier="_36FyIOgLEfG3pPRXbtjV7g"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_G-bUAOgMEfG3pPRXbtjV7g" client="_q_hZIOgLEfG3pPRXbtjV7g" supplier="_Dkgx4OgMEfG3pPRXbtjV7g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_ob-B0OgMEfG3pPRXbtjV7g" name="A3 Damage, Invoicing, &amp; Deposit Service FR-AO-7.1-7.3">
+        <packagedElement xmi:type="uml:Usage" xmi:id="_L8J80OgNEfG3pPRXbtjV7g" client="_ob-B0OgMEfG3pPRXbtjV7g" supplier="_Evqg8OgNEfG3pPRXbtjV7g"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_SR4IwOgNEfG3pPRXbtjV7g" client="_ob-B0OgMEfG3pPRXbtjV7g" supplier="_OGyoYOgNEfG3pPRXbtjV7g"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_amwwEOgNEfG3pPRXbtjV7g" client="_ob-B0OgMEfG3pPRXbtjV7g" supplier="_Uekp0OgNEfG3pPRXbtjV7g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_7wQggOgNEfG3pPRXbtjV7g" name="A4 Room Allocation Service FR-AO-2.1-2.3, 3.3">
+        <generalization xmi:type="uml:Generalization" xmi:id="_RRz2EOgREfG3pPRXbtjV7g" general="_KklwIOgREfG3pPRXbtjV7g"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_MnPrwOgOEfG3pPRXbtjV7g" client="_7wQggOgNEfG3pPRXbtjV7g" supplier="_JH2zwOgOEfG3pPRXbtjV7g"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_2fxo4OgOEfG3pPRXbtjV7g" client="_7wQggOgNEfG3pPRXbtjV7g" supplier="_xF0hoOgOEfG3pPRXbtjV7g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_NQMssOgPEfG3pPRXbtjV7g" name="A5 Incident &amp; Welfare Service FR-AO-3.4">
+        <packagedElement xmi:type="uml:Usage" xmi:id="_gx4joOgPEfG3pPRXbtjV7g" client="_NQMssOgPEfG3pPRXbtjV7g" supplier="_a5JOoOgPEfG3pPRXbtjV7g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_Fll8AOgQEfG3pPRXbtjV7g" name="A6 Applications &amp; Admissions Service FR-AO-1.1-1.3">
+        <generalization xmi:type="uml:Generalization" xmi:id="_cKRC0OgQEfG3pPRXbtjV7g" general="_TMXTsOgQEfG3pPRXbtjV7g"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_m71H8OgQEfG3pPRXbtjV7g" client="_Fll8AOgQEfG3pPRXbtjV7g" supplier="_jlYJgOgQEfG3pPRXbtjV7g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_3E75gOgQEfG3pPRXbtjV7g" name="A7 Tenancy &amp; Pricing Service FR-AO-3.1-3.2">
+        <packagedElement xmi:type="uml:Usage" xmi:id="_26MzsOgREfG3pPRXbtjV7g" client="_3E75gOgQEfG3pPRXbtjV7g" supplier="_tPGnYOgREfG3pPRXbtjV7g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_fZRDgOgSEfG3pPRXbtjV7g" name="A8 Compliance Registry Service FR-AO-5.1-5.2">
+        <packagedElement xmi:type="uml:Usage" xmi:id="_AMN8MOgTEfG3pPRXbtjV7g" client="_fZRDgOgSEfG3pPRXbtjV7g" supplier="_5iw78OgSEfG3pPRXbtjV7g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_l4-KgOgVEfG3pPRXbtjV7g" name="A9 |Business Intelligence &amp; Analytics Service FR-AO-8.1-8.3">
+        <packagedElement xmi:type="uml:Usage" xmi:id="_F1vCEOgWEfG3pPRXbtjV7g" client="_l4-KgOgVEfG3pPRXbtjV7g" supplier="_CxWrEOgWEfG3pPRXbtjV7g"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_S5QiwOgWEfG3pPRXbtjV7g" client="_l4-KgOgVEfG3pPRXbtjV7g" supplier="_Ps4tYOgWEfG3pPRXbtjV7g"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_bBDJQOgWEfG3pPRXbtjV7g" client="_l4-KgOgVEfG3pPRXbtjV7g" supplier="_bACcoOgWEfG3pPRXbtjV7g"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_75v7EOgKEfG3pPRXbtjV7g" name="IShiftDuty">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Q-_PcOgLEfG3pPRXbtjV7g" general="_DjG5IOgLEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_DjG5IOgLEfG3pPRXbtjV7g" name="Warden Subsystem - W2 Shift Duty Service"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_UTfGEOgLEfG3pPRXbtjV7g" name="IRoster">
+      <generalization xmi:type="uml:Generalization" xmi:id="_jNkqUOgMEfG3pPRXbtjV7g" general="_KTZWoOgKEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_YpWTEOgLEfG3pPRXbtjV7g" name="Warden Subsystem - W2 Shift Duty Service">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_nCVx4OgLEfG3pPRXbtjV7g" name="&lt;&lt;use>>" client="_YpWTEOgLEfG3pPRXbtjV7g" supplier="_UTfGEOgLEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_36FyIOgLEfG3pPRXbtjV7g" name="ITelemetry">
+      <generalization xmi:type="uml:Generalization" xmi:id="_QYaiMOgMEfG3pPRXbtjV7g" general="_JbB5UOgMEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_Dkgx4OgMEfG3pPRXbtjV7g" name="IAIModel">
+      <generalization xmi:type="uml:Generalization" xmi:id="_X3eUwOgMEfG3pPRXbtjV7g" general="_SQZ-kOgMEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_JbB5UOgMEfG3pPRXbtjV7g" name="Boiler &amp; Plant Room IoT Management"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_SQZ-kOgMEfG3pPRXbtjV7g" name="Platform Operator - P2 AI Management"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_ZPi68OgMEfG3pPRXbtjV7g" name="IWorkOrder">
+      <generalization xmi:type="uml:Generalization" xmi:id="_ltAhMOgMEfG3pPRXbtjV7g" general="_q_hZIOgLEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_c3zbEOgMEfG3pPRXbtjV7g" name="Warden Subsystem - W3 Maintenance Order">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_hGheQOgMEfG3pPRXbtjV7g" client="_c3zbEOgMEfG3pPRXbtjV7g" supplier="_ZPi68OgMEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_3536QOgMEfG3pPRXbtjV7g" name="Student Subsystem - S3 Inventory Service"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_9SryAOgMEfG3pPRXbtjV7g" name="University FInance System"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_BKcGsOgNEfG3pPRXbtjV7g" name="Tenancy Deposit Protection Scheme"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_Evqg8OgNEfG3pPRXbtjV7g" name="IInventory">
+      <generalization xmi:type="uml:Generalization" xmi:id="_NiN7sOgNEfG3pPRXbtjV7g" general="_3536QOgMEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_OGyoYOgNEfG3pPRXbtjV7g" name="IFinacneSystem">
+      <generalization xmi:type="uml:Generalization" xmi:id="_TQwy4OgNEfG3pPRXbtjV7g" general="_9SryAOgMEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_Uekp0OgNEfG3pPRXbtjV7g" name="IDepositScheme">
+      <generalization xmi:type="uml:Generalization" xmi:id="_b29MoOgNEfG3pPRXbtjV7g" general="_BKcGsOgNEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_cvjokOgNEfG3pPRXbtjV7g" name="IBilling">
+      <generalization xmi:type="uml:Generalization" xmi:id="_n_57cOgNEfG3pPRXbtjV7g" general="_ob-B0OgMEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_huRlUOgNEfG3pPRXbtjV7g" name="W\arden Subsystem - W3/W8 Services">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_my_cYOgNEfG3pPRXbtjV7g" client="_huRlUOgNEfG3pPRXbtjV7g" supplier="_cvjokOgNEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_oyMUAOgNEfG3pPRXbtjV7g" name="Student Subsystem - Payment Service">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_ujrxgOgNEfG3pPRXbtjV7g" client="_oyMUAOgNEfG3pPRXbtjV7g" supplier="_uihT4OgNEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_uihT4OgNEfG3pPRXbtjV7g" name="IChargesAPI">
+      <generalization xmi:type="uml:Generalization" xmi:id="_xJrjYOgNEfG3pPRXbtjV7g" general="_ob-B0OgMEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_JH2zwOgOEfG3pPRXbtjV7g" name="IProfileAPI">
+      <generalization xmi:type="uml:Generalization" xmi:id="_k-F60OgOEfG3pPRXbtjV7g" general="_iYdVUOgOEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_iYdVUOgOEfG3pPRXbtjV7g" name="Student subsystem - Profile &amp; Visitor Service"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_xF0hoOgOEfG3pPRXbtjV7g" name="IAIModel">
+      <generalization xmi:type="uml:Generalization" xmi:id="__c8_QOgOEfG3pPRXbtjV7g" general="_69Gv0OgOEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_69Gv0OgOEfG3pPRXbtjV7g" name="Platform Operator - P2 AI Managment"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_BOzXYOgPEfG3pPRXbtjV7g" name="IResidentDirectory">
+      <generalization xmi:type="uml:Generalization" xmi:id="_G_AbcOgPEfG3pPRXbtjV7g" general="_7wQggOgNEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_HhPl0OgPEfG3pPRXbtjV7g" name="Warden Subsystem - W7/W8 Services">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_Lw1LsOgPEfG3pPRXbtjV7g" client="_HhPl0OgPEfG3pPRXbtjV7g" supplier="_BOzXYOgPEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_a5JOoOgPEfG3pPRXbtjV7g" name="IIncidentWelfare">
+      <generalization xmi:type="uml:Generalization" xmi:id="_n84xwOgPEfG3pPRXbtjV7g" general="_iD1TsOgPEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_iD1TsOgPEfG3pPRXbtjV7g" name="Warden Subsystem - W10 Incidnet and Welfare"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_qw-C8OgPEfG3pPRXbtjV7g" name="IIncidentReport">
+      <generalization xmi:type="uml:Generalization" xmi:id="_4N2e0OgPEfG3pPRXbtjV7g" general="_NQMssOgPEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_ydseEOgPEfG3pPRXbtjV7g" name="Warden Subsystem - W10 Incidnet &amp; Welfare">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_3jnPAOgPEfG3pPRXbtjV7g" client="_ydseEOgPEfG3pPRXbtjV7g" supplier="_qw-C8OgPEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_f3Gg8OgQEfG3pPRXbtjV7g" client="_TMXTsOgQEfG3pPRXbtjV7g" supplier="_7wQggOgNEfG3pPRXbtjV7g"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_jlYJgOgQEfG3pPRXbtjV7g" name="ISIS">
+      <generalization xmi:type="uml:Generalization" xmi:id="_wnAz0OgQEfG3pPRXbtjV7g" general="_oSD7EOgQEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_oSD7EOgQEfG3pPRXbtjV7g" name="University Studnet Information System(ISIS)"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_TqaFIOgREfG3pPRXbtjV7g" client="_KklwIOgREfG3pPRXbtjV7g" supplier="_3E75gOgQEfG3pPRXbtjV7g"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_tPGnYOgREfG3pPRXbtjV7g" name="INotification">
+      <generalization xmi:type="uml:Generalization" xmi:id="_IhrnwOgSEfG3pPRXbtjV7g" general="_5ZL-oOgREfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_5ZL-oOgREfG3pPRXbtjV7g" name="Platform Operator Subsystem - Notification"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_OdamYOgSEfG3pPRXbtjV7g" name="IContractsAPI">
+      <generalization xmi:type="uml:Generalization" xmi:id="_TAPRUOgSEfG3pPRXbtjV7g" general="_3E75gOgQEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_V3ADEOgSEfG3pPRXbtjV7g" name="Student Subsystem - Tenancy Service">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_bNmUUOgSEfG3pPRXbtjV7g" client="_V3ADEOgSEfG3pPRXbtjV7g" supplier="_OdamYOgSEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_5iw78OgSEfG3pPRXbtjV7g" name="INotification">
+      <generalization xmi:type="uml:Generalization" xmi:id="_QUyiQOgTEfG3pPRXbtjV7g" general="_LPNIgOgTEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_LPNIgOgTEfG3pPRXbtjV7g" name="Platform Operator Subsystem - Notification"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_SwfIoOgTEfG3pPRXbtjV7g" name="ICompliance">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Y9RbAOgTEfG3pPRXbtjV7g" general="_fZRDgOgSEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_ZnwicOgTEfG3pPRXbtjV7g" name="Accommodation Office Staff Web Portal">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_gxgMUOgTEfG3pPRXbtjV7g" name=" " client="_ZnwicOgTEfG3pPRXbtjV7g" supplier="_SwfIoOgTEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_xYhXAOgVEfG3pPRXbtjV7g" name="IAnalyticsAPI">
+      <generalization xmi:type="uml:Generalization" xmi:id="_5s62IOgVEfG3pPRXbtjV7g" general="_l4-KgOgVEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_zlXpEOgVEfG3pPRXbtjV7g" name="Accomodation Office Staff Web Portal">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_4KFKYOgVEfG3pPRXbtjV7g" client="_zlXpEOgVEfG3pPRXbtjV7g" supplier="_xYhXAOgVEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_CxWrEOgWEfG3pPRXbtjV7g" name="IMeterData">
+      <generalization xmi:type="uml:Generalization" xmi:id="_OzLeMOgWEfG3pPRXbtjV7g" general="_IQMSUOgWEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_IQMSUOgWEfG3pPRXbtjV7g" name="Smart Meter &amp; Utility IoT"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_Ps4tYOgWEfG3pPRXbtjV7g" name="IMaintenanceAPI">
+      <generalization xmi:type="uml:Generalization" xmi:id="_X7DosOgWEfG3pPRXbtjV7g" general="_UjM8EOgWEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_UjM8EOgWEfG3pPRXbtjV7g" name="Student Subsystem - Maintenance Service"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_bACcoOgWEfG3pPRXbtjV7g" name="IAuditUsage">
+      <generalization xmi:type="uml:Generalization" xmi:id="_iRvIoOgWEfG3pPRXbtjV7g" general="_dy4-wOgWEfG3pPRXbtjV7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_dy4-wOgWEfG3pPRXbtjV7g" name="PlatformOperator - P4 Audit Usage Service"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Lt8T8OgIEfG3pPRXbtjV7g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LuOAwOgIEfG3pPRXbtjV7g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <standard:Service xmi:id="_gdk50OgKEfG3pPRXbtjV7g" base_Component="_KTZWoOgKEfG3pPRXbtjV7g"/>
+  <standard:Service xmi:id="_2Thc8OgLEfG3pPRXbtjV7g" base_Component="_q_hZIOgLEfG3pPRXbtjV7g"/>
+  <standard:Service xmi:id="_q0sMsOgMEfG3pPRXbtjV7g" base_Component="_ob-B0OgMEfG3pPRXbtjV7g"/>
+  <standard:Service xmi:id="_-Sd-kOgNEfG3pPRXbtjV7g" base_Component="_7wQggOgNEfG3pPRXbtjV7g"/>
+  <standard:Service xmi:id="_YcHykOgPEfG3pPRXbtjV7g" base_Component="_NQMssOgPEfG3pPRXbtjV7g"/>
+  <standard:Service xmi:id="_MD9toOgQEfG3pPRXbtjV7g" base_Component="_Fll8AOgQEfG3pPRXbtjV7g"/>
+  <standard:Service xmi:id="_HmOhkOgREfG3pPRXbtjV7g" base_Component="_3E75gOgQEfG3pPRXbtjV7g"/>
+  <standard:Service xmi:id="_wRSJgOgSEfG3pPRXbtjV7g" base_Component="_fZRDgOgSEfG3pPRXbtjV7g"/>
+  <standard:Service xmi:id="_vrOHsOgVEfG3pPRXbtjV7g" base_Component="_l4-KgOgVEfG3pPRXbtjV7g"/>
+</xmi:XMI>
